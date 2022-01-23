@@ -29,7 +29,7 @@ function nowDate() {
 
 // 배경화면 기능
 function bgChange() {
-  let no = Math.floor(Math.random() * 10) + 1;
+  let no = Math.floor(Math.random() * 9) + 1;
   body.style.backgroundImage = `url(src/resources/images/img_bg_${no}.jpeg)`;
 }
 btnBg.addEventListener("click", bgChange);
