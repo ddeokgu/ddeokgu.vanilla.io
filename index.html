@@ -5,10 +5,46 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/style.css" />
   </head>
-
   <body>
-      <h2>성공기원</h2>
-    <button id="btnGo">Give me color</button>
+    <header id="headBox">
+      <div class="shortcut_links">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/">
+              <img src= 'src/resources/images/youtube_icon.jpeg'/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.naver.com/">
+              <img src="src/resources/images/naver_icon.png"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/">
+              <img src="src/resources/images/google_icon.png"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="center">
+      <h2 id ="date"></h2>
+    </div>
+    <div class="weather">
+    </div>
+    <form class="center hidden" id ="loginForm">
+      <input class = "input" size=50 type="text" placeholder="what is your nickname in Disney World!" required maxlength="15"/>
+      <input type ="submit" value = "GO!"/>
+    </form>
+    <h1 class="center hidden" id="txtLogin"></h1>
+    <div class="todo">
+      <form id="todoForm">
+        <input class = "input" size=40 type="text" placeholder="Write a To Do and Press Enter!" required />
+      </form>
+      <ul id="todoList"></ul>
+    </div>
+    
+    <button class="btn_bg" id="btnGo">Change Background Image</button>
     <script src="src/index.js"></script>
   </body>
 </html>

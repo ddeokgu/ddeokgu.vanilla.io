@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background-image: url('resources/images/img_bg_9.jpeg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  .shortcut_links > ul {
+    width: 210px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .center { 
+    padding-top: 100px;
+    color: aliceblue;
+    text-align: center;
+  
+  }
+  input::placeholder {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+
+  .input {
+    background-color:transparent;
+    border: none;
+    color :aliceblue;
+ 
+  }
+
+  .weather {
+    font-size: large;
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  
+  .todo {
+    color:aliceblue;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+  }
+
+  .btn_bg {
+    color: aliceblue;
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:transparent;
+    border: none;
+  }
+
